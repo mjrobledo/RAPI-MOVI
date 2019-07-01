@@ -1,0 +1,9 @@
+
+/* Class = "UITextField"; placeholder = "BUSACAR"; ObjectID = "KB4-ut-qDK"; */
+"KB4-ut-qDK.placeholder" = "BUSACAR";
+
+/* Class = "UINavigationItem"; title = "MOVIES"; ObjectID = "uM0-T8-BEG"; */
+"uM0-T8-BEG.title" = "MOVIES";
+
+/* Class = "UILabel"; text = "Populares"; ObjectID = "vr7-63-cTQ"; */
+"vr7-63-cTQ.text" = "Populares";

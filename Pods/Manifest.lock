@@ -1,0 +1,24 @@
+PODS:
+  - ListPlaceholder (1.4)
+  - SVProgressHUD (2.2.5)
+  - TMDBSwift (0.5.1)
+
+DEPENDENCIES:
+  - ListPlaceholder
+  - SVProgressHUD
+  - TMDBSwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ListPlaceholder
+    - SVProgressHUD
+    - TMDBSwift
+
+SPEC CHECKSUMS:
+  ListPlaceholder: 08ddaddf67520a20fc52cf37160fb56aa64d071d
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TMDBSwift: 9220f3dcee23372c05b92f8c111f5f4c37185aee
+
+PODFILE CHECKSUM: e4125d7ef1d6175b8619f85040949ed01797738d
+
+COCOAPODS: 1.6.1
