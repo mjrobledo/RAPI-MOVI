@@ -1,0 +1,37 @@
+Descripción APP Rapi Movies -> Miguel Robledo
+
+Para está aplicación se utilizo la estructura Modelo Vista Controlador, no tuve la oportunidad de utilizar el consumo de servicio REST que ofrecía https://developers.themoviedb.org  ya que dentro de la documentación vi que contaba con un Framework que decidí utilizar. Solo como comentario de haber utilizado los servicio REST hubiera utilizado la librería AlamoFire.
+
+Dentro de la aplicación utilice 3 librerías
+  pod 'TMDBSwift' 			- > Para el consumo de información
+  pod 'SVProgressHUD'		-> Indicadores de Loading
+  pod 'ListPlaceholder'		-> Place holder Shimmer
+
+
+Decripción de clases
+
+Dentro de la clase AppDelegate se configuro la siguiente variable, para el consumo de información
+TMDBConfig.apikey = "c01f1df2fb4c5a34dd0129988509521e"
+
+
+Carpeta Movies
+Dentro de la  hay dos clases:
+
+	MovieVC
+		Clase que contiene la funcionalidad de la pantalla principal (Galería de imágenes) la cual contiene una tabla y dentro de esta una celda con collection view
+
+	CellMovieVC
+		Clase perteneciente a la celda de la tabla Movie, la cual contiene dentro un Collection View y su funcionalidad para mostrar las  Películas de cada categoría.
+
+Carpeta DetalMovies
+	Clase Detail Movies
+		Contiene la funcionalidad para mostrar el detalle de una película seleccionada.
+
+Carpeta Utilities
+
+	Extensions ->
+	Constants ->  Declaraciones de constantes globales
+	Text 		 ->  Variables para manejar el multi idioma de la aplicación.
+
+Debido a que se utilizo el framework para obtener la información de las películas se podría decir que no existe una capa de Modelo
+En caso de consumir los servicios REST se hubiera echo una carpeta Modelo en la cual estuvieran los Modelos de objetos requerídos en la aplicación así como el consumo de servicios.
